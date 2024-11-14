@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "ctme-llm-lecture-resources"
+version = "0.1.0"
+description = ""
+authors = ["Mike Frantz <michael@memrhealth.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+llama-index = "^0.11.23"
+llama-index-llms-openai = "^0.2.16"
+llama-index-llms-gemini = "^0.3.7"
+llama-index-llms-ollama = "^0.3.6"
+sentence-transformers = "^3.3.0"
+chromadb = "^0.5.18"
+chonkie = {extras = ["all"], version = "^0.1.2"}
+duckduckgo-search = "^6.3.4"
+gradio = "^5.5.0"
+ipykernel = "^6.29.5"
+ipywidgets = "^8.1.5"
+llama-index-embeddings-huggingface = "^0.3.1"
+llama-index-readers-web = "^0.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
