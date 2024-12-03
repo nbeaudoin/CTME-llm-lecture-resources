@@ -18,4 +18,5 @@ dependencies = [
     "llama-index-readers-docling>=0.3.0",
     "llama-index-node-parser-docling>=0.3.0",
     "pystemmer>=2.2.0.3",
+    "llama-index-utils-workflow>=0.3.0",
 ]
