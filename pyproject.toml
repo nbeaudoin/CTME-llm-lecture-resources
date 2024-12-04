@@ -21,4 +21,6 @@ dependencies = [
     "llama-index-utils-workflow>=0.3.0",
     "autogen-agentchat~=0.2",
     "llama-index-tools-yahoo-finance>=0.3.0",
+    "autogenstudio>=0.1.5",
+    "llama-index-tools-code-interpreter>=0.3.0",
 ]
