@@ -19,8 +19,6 @@ dependencies = [
     "llama-index-node-parser-docling>=0.3.0",
     "pystemmer>=2.2.0.3",
     "llama-index-utils-workflow>=0.3.0",
-    "autogen-agentchat~=0.2",
     "llama-index-tools-yahoo-finance>=0.3.0",
-    "autogenstudio>=0.1.5",
     "llama-index-tools-code-interpreter>=0.3.0",
 ]
